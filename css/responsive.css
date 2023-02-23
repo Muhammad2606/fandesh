@@ -1,0 +1,51 @@
+@media  only screen and (max-width:768px){
+    .navigation .fa-bars{
+        display: block;
+        font-size: 1.5rem;
+
+    }
+    .navbar__nav a{
+        display: none;
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+    .about__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+    .admison__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+    .why__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+    .Datermine__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+    .Testimonial__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+    .contact__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+    .footer__content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 3rem;
+        margin-bottom: 2rem;
+    }
+}
